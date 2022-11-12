@@ -3,15 +3,15 @@ channels:
 - pytorch
 - defaults
 dependencies:
-- jupyter
-- nb_conda
-- numpy
-- pyyaml
-- mkl
-- setuptools
-- cmake
-- cffi
-- pytorch=0.4
-- matplotlib
-- scikit-image
-- torchvision
+- jupyter=1.0.0
+- nb_conda=2.2.1
+- numpy=1.22.3
+- pyyaml=6.0
+- mkl=2021.4.0
+- setuptools=65.5.0
+- cmake=3.19.6
+- cffi=1.15.0
+- pytorch=1.13.0
+- matplotlib=3.5.1
+- scikit-image=0.19.2
+- torchvision=0.14.0
